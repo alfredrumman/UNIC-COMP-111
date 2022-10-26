@@ -15,10 +15,10 @@ int main()
         char answer;
         cin >> answer;
         if (answer == 'Y') {
-            cout << "A dog that has been neutered costs 50 Euros.";
+            cout << "A dog that has been neutered costs 50 Euros." << endl;
         }
         else {
-            cout << "A dog that has not been neutered costs 80 Euros.";
+            cout << "A dog that has not been neutered costs 80 Euros." << endl;
         }
     }
     else if (i == 'c' || i == 'C') {
@@ -27,17 +27,17 @@ int main()
         char answer;
         cin >> answer;
         if (answer == 'Y') {
-            cout << "A cat that has been neutered costs 40 Euros.";
+            cout << "A cat that has been neutered costs 40 Euros." << endl;
         }
         else {
-            cout << "A cat that has not been neutered costs 60 Euros.";
+            cout << "A cat that has not been neutered costs 60 Euros." << endl;
         }
     }
     else if ((i == 'b' || i == 'B') || (i == 'r' || i == 'R')) {
-        cout << "A bird or reptile costs 10 Euros.";
+        cout << "A bird or reptile costs 10 Euros." << endl;
     }
     else {
-        cout << "Any other animal generates an error message.";
+        cout << "Any other animal generates an error message." << endl;
     }
 
     return 0;
