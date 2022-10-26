@@ -3,18 +3,42 @@
 
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    char i;
+    cin >> i;
+
+    if (i == 'd' || i == 'D') {
+        cout << "Want the dog to be neutered Y/N: ";
+        char answer;
+        cin >> answer;
+        if (answer == 'Y') {
+            cout << "A dog that has been neutered costs 50 Euros.";
+        }
+        else {
+            cout << "A dog that has not been neutered costs 80 Euros.";
+        }
+    }
+    else if (i == 'c' || i == 'C') {
+        cout << "Want the cat to be neutered Y/N: ";
+
+        char answer;
+        cin >> answer;
+        if (answer == 'Y') {
+            cout << "A cat that has been neutered costs 40 Euros.";
+        }
+        else {
+            cout << "A cat that has not been neutered costs 60 Euros.";
+        }
+    }
+    else if ((i == 'b' || i == 'B') || (i == 'r' || i == 'R')) {
+        cout << "A bird or reptile costs 10 Euros.";
+    }
+    else {
+        cout << "Any other animal generates an error message.";
+    }
+
+    return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file

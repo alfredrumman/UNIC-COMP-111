@@ -39,3 +39,12 @@
 *.vcxproj
 *.filters
 *.user
+*.idb
+*.pdb
+*.recipe
+*.ilk
+Week-5_ASI/.vs/Week-5_ASI/v17/.suo
+*.log
+*.enc
+*.tlog
+*.txt
